@@ -1,0 +1,48 @@
+.container {
+    margin: auto;
+    margin-top: 50px;
+    max-width: 400px;
+    height: 500px;
+    border: solid black 1px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: steelblue;
+}
+
+input {
+    padding: 5px;
+    margin-left: 5px;
+    margin-right: 10px;
+    width: 60%;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 5px;
+    width: 50px;
+    font-weight: bold;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: green;
+}
+
+#todo-list {
+    justify-content: center;
+}
+
+#todo-list div {
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    width: 90%;
+    box-sizing: border-box;
+    margin: 5px 5px 5px 10px
+}
+
+.done {
+    background-color: grey;
+}
